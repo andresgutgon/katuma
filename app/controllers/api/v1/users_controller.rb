@@ -22,6 +22,7 @@ module Api
       def create
         user = User.new(users_params)
         if user.save
+          UserMailer.welcome_email(user).deliver
           render json: user.serializable_hash(except: :password_digest)
         else
           render status: :bad_request,

@@ -9,7 +9,7 @@ gem 'pg'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 gem 'pundit'
-gem 'rolify', '~> 3.3.0.rc5', :git => 'git://github.com/EppO/rolify.git'
+gem 'rolify', '~> 3.4.0'
 
 # Gems used only for assets and not required
 # in production environments by default.

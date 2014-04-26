@@ -1,8 +1,8 @@
 class GroupCreation
   attr_accessor :group, :creator
 
-  # @param [Object] Group
-  # @param [Object] User
+  # @param group [Group]
+  # @param creator [User]
   def initialize(group, creator)
     @group = group
     @creator = creator
